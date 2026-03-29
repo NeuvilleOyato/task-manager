@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
-    //
+    //implementing OOP principles
     protected $fillable = [
         'title',
         'due_date',
