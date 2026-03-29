@@ -13,10 +13,10 @@
         }
 
         :root {
-            --navy: #0a1f3c;
-            --navy-light: #122850;
-            --gold: #c9a84c;
-            --gold-light: #e2c06e;
+            --navy: #00676e;
+            --navy-light: #00838f;
+            --gold: #8dc63f;
+            --gold-light: #a3d45a;
             --white: #ffffff;
             --gray-light: #f4f6f9;
             --gray: #e0e4ea;
@@ -36,7 +36,8 @@
 
         /* Navbar */
         nav {
-            background: var(--navy);
+            background: var(--white);
+            border-bottom: 3px solid var(--navy);
             padding: 0 2rem;
             display: flex;
             align-items: center;
@@ -65,17 +66,17 @@
         }
 
         .nav-title {
-            color: var(--white);
+            color: var(--navy);
             font-size: 18px;
             font-weight: 600;
         }
 
         .nav-title span {
-            color: var(--gold);
+            color: var(--navy);
         }
 
         .nav-subtitle {
-            color: rgba(255, 255, 255, 0.5);
+            color: var(--text-muted);
             font-size: 12px;
         }
 
@@ -394,9 +395,9 @@
 
     <nav>
         <div class="nav-brand">
-            <div class="nav-logo">C</div>
-            <div>
-                <div class="nav-title">Cytonn <span>Task Manager</span></div>
+            <img src="/images/cytonn_logo.svg" alt="Cytonn Investments" style="height: 40px;">
+            <div style="margin-left: 10px;">
+                <div class="nav-title"><span>Task Manager</span></div>
                 <div class="nav-subtitle">Investment Operations Dashboard</div>
             </div>
         </div>
